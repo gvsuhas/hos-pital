@@ -1,0 +1,9 @@
+frontend:
+  image: "gontlasuhas/hospital-frontend"
+  replicaCount: 1
+  port: 80
+
+backend:
+  image: "gontlasuhas/hospital-backend"
+  replicaCount: 1
+  port: 8081
